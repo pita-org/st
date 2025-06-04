@@ -7,7 +7,8 @@
  */
 //static char *font = "JetBrainsMono NL:pixelsize=16:antialias=true:autohint=true";
 //static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=16:antialias=true:autohint=true";
-static char *font = "Cozette:Pixelsize=16:antialias=true:autohint=true";
+static char *font = "Cozette:size=16";
+
 
 static int borderpx = 0;
 

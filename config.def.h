@@ -5,9 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "JetBrainsMono NL:pixelsize=16:antialias=true:autohint=true";
-//static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=16:antialias=true:autohint=true";
-static char *font = "Cozette:size=16";
+static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=16:antialias=true:autohint=true";
 
 
 static int borderpx = 0;
@@ -19,6 +17,7 @@ static int borderpx = 0;
 static int anysize_halign = 50;
 static int anysize_valign = 50;
 
+//static char *font = "JetBrainsMono NL:pixelsize=16:antialias=true:autohint=true";
 
 /*
  * What program is execed by st depends of these precedence rules:

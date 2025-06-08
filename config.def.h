@@ -7,7 +7,7 @@
  */
 static char *font = "JetBrainsMonoNL Nerd Font:size=13:autohint=true";
 
-static int borderpx = 0;
+static int borderpx = 2;
 
 /* How to align the content in the window when the size of the terminal
  * doesn't perfectly match the size of the window. The values are percentages.

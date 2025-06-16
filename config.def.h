@@ -119,25 +119,26 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	[0] = "#0c0e0f",
-	[1] = "#ef5a5a", /* red     */
-	[2] = "#91b467", /* green   */
-	[3] = "#e8b563", /* yellow  */
-	[4] = "#83a5ba", /* blue    */
-	[5] = "#b87db2", /* magenta */
-	[6] = "#5fb7a2", /* cyan    */
-	[7] = "#e9e4e4", /* white   */
+	[0] = "#0c0e0f", /* black   (bg)     */
+	[1] = "#ef5a5a", /* red     (normal) */
+	[2] = "#91b467", /* green   (normal) */
+	[3] = "#e8b563", /* yellow  (normal) */
+	[4] = "#83a5ba", /* blue    (normal) */
+	[5] = "#ab89b2", /* magenta (adjusted for harmony) */
+	[6] = "#5fb7a2", /* cyan    (normal) */
+	[7] = "#e9e4e4", /* white   (fg)     */
 
 	/* 8 bright colors */
-	[8]  = "#222222", /* black   */
-	[9]  = "#d04b45", /* red     */
-	[10] = "#a3c76f", /* green   */
-	[11] = "#e8b563", /* yellow  */
-	[12] = "#83a5ba", /* blue    */
-	[13] = "#d086c7", /* magenta */
-	[14] = "#69c4af", /* cyan    */
-	[15] = "#dde3ea", /* white   */
+	[8]  = "#131313", /* bright black (slightly lighter for depth) */
+	[9]  = "#ef5a5a", /* bright red (match normal red, stronger unity) */
+	[10] = "#a3c76f", /* bright green (yours, fits nicely) */
+	[11] = "#e8c373", /* bright yellow (slightly lighter yellow for contrast) */
+	[12] = "#8fb3c4", /* bright blue (lighter, harmonious with base blue) */
+	[13] = "#c092c3", /* bright magenta (lighter version of normal magenta) */
+	[14] = "#69c4af", /* bright cyan (yours, good) */
+	[15] = "#dde3ea", /* bright white (yours, good) */
 };
+
 
 
 /*

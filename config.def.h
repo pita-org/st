@@ -6,7 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "JetBrainsMonoNL Nerd Font:size=13:autohint=true";
-static char *font = "Rubik:size=13:antialias=true:autohint=true";
+//static char *font = "Rubik:size=13:antialias=true:autohint=true";
+static char *font = "Rubik:size=13";
+
 
 
 static int borderpx = 2;

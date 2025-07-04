@@ -120,6 +120,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/*
 static const char *colorname[] = {
 	/* 8 normal colors */
 	[0] = "#0c0e0f", /* black   (bg)     */
@@ -140,6 +141,28 @@ static const char *colorname[] = {
 	[13] = "#c092c3", /* bright magenta (lighter version of normal magenta) */
 	[14] = "#69c4af", /* bright cyan (yours, good) */
 	[15] = "#dde3ea", /* bright white (yours, good) */
+};
+*/
+static const char *colorname[] = {
+    /* 8 normal colors */
+    [0] = "#17181C",  /* black   (text color, fits “black” role in light theme) */
+    [1] = "#FA3867",  /* red     */
+    [2] = "#3FD43B",  /* green   */
+    [3] = "#FEBD16",  /* yellow  */
+    [4] = "#53ADE1",  /* blue    */
+    [5] = "#AD60FF",  /* magenta */
+    [6] = "#1E1F24",  /* cyan-ish (dark neutral, no cyan in theme so reuse fg_2) */
+    [7] = "#E4E5E7",  /* white   (background color) */
+
+    /* 8 bright colors */
+    [8]  = "#26272B",  /* bright black (fg_3, deepest text color) */
+    [9]  = "#FA3867",  /* bright red (same) */
+    [10] = "#3FD43B",  /* bright green (same) */
+    [11] = "#FEBD16",  /* bright yellow (same) */
+    [12] = "#53ADE1",  /* bright blue (same) */
+    [13] = "#AD60FF",  /* bright magenta (same) */
+    [14] = "#B0B1B4",  /* bright cyan (bg_1, mild gray) */
+    [15] = "#CBCCCE",  /* bright white (abg, a bit darker background shade) */
 };
 
 

@@ -120,29 +120,28 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
-/*
-static const char *colorname[] = {
+
+//static const char *colorname[] = {
 	/* 8 normal colors */
-	[0] = "#0c0e0f", /* black   (bg)     */
-	[1] = "#ef5a5a", /* red     (normal) */
-	[2] = "#91b467", /* green   (normal) */
-	[3] = "#e8b563", /* yellow  (normal) */
-	[4] = "#83a5ba", /* blue    (normal) */
-	[5] = "#ab89b2", /* magenta (adjusted for harmony) */
-	[6] = "#5fb7a2", /* cyan    (normal) */
-	[7] = "#e9e4e4", /* white   (fg)     */
+	//[0] = "#0c0e0f", /* black   (bg)     */
+	//[1] = "#ef5a5a", /* red     (normal) */
+	//[2] = "#91b467", /* green   (normal) */
+	//[3] = "#e8b563", /* yellow  (normal) */
+	//[4] = "#83a5ba", /* blue    (normal) */
+	//[5] = "#ab89b2", /* magenta (adjusted for harmony) */
+	//[6] = "#5fb7a2", /* cyan    (normal) */
+	//[7] = "#e9e4e4", /* white   (fg)     */
 
 	/* 8 bright colors */
-	[8]  = "#131313", /* bright black (slightly lighter for depth) */
-	[9]  = "#ef5a5a", /* bright red (match normal red, stronger unity) */
-	[10] = "#a3c76f", /* bright green (yours, fits nicely) */
-	[11] = "#e8c373", /* bright yellow (slightly lighter yellow for contrast) */
-	[12] = "#8fb3c4", /* bright blue (lighter, harmonious with base blue) */
-	[13] = "#c092c3", /* bright magenta (lighter version of normal magenta) */
-	[14] = "#69c4af", /* bright cyan (yours, good) */
-	[15] = "#dde3ea", /* bright white (yours, good) */
-};
-*/
+	//[8]  = "#131313", /* bright black (slightly lighter for depth) */
+	//[9]  = "#ef5a5a", /* bright red (match normal red, stronger unity) */
+	//[10] = "#a3c76f", /* bright green (yours, fits nicely) */
+	//[11] = "#e8c373", /* bright yellow (slightly lighter yellow for contrast) */
+	//[12] = "#8fb3c4", /* bright blue (lighter, harmonious with base blue) */
+	//[13] = "#c092c3", /* bright magenta (lighter version of normal magenta) */
+	//[14] = "#69c4af", /* bright cyan (yours, good) */
+	//[15] = "#dde3ea", /* bright white (yours, good) */
+//};
 static const char *colorname[] = {
     /* 8 normal colors */
     [0] = "#17181C",  /* black   (text color, fits “black” role in light theme) */

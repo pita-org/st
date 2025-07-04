@@ -143,25 +143,23 @@ unsigned int tabspaces = 8;
 	//[15] = "#dde3ea", /* bright white (yours, good) */
 //};
 static const char *colorname[] = {
-    /* 8 normal colors */
-    [0] = "#17181C",  /* black   (text color, fits “black” role in light theme) */
-    [1] = "#FA3867",  /* red     */
-    [2] = "#3FD43B",  /* green   */
-    [3] = "#FEBD16",  /* yellow  */
-    [4] = "#53ADE1",  /* blue    */
-    [5] = "#AD60FF",  /* magenta */
-    [6] = "#1E1F24",  /* cyan-ish (dark neutral, no cyan in theme so reuse fg_2) */
-    [7] = "#E4E5E7",  /* white   (background color) */
+    [0] = "#e4e5e7",
+    [1] = "#FA3867",
+    [2] = "#3FD43B",
+    [3] = "#FEBD16",
+    [4] = "#53ADE1",
+    [5] = "#AD60FF",
+    [6] = "#47e7ce",
+    [7] = "#17181c",
 
-    /* 8 bright colors */
-    [8]  = "#26272B",  /* bright black (fg_3, deepest text color) */
-    [9]  = "#FA3867",  /* bright red (same) */
-    [10] = "#3FD43B",  /* bright green (same) */
-    [11] = "#FEBD16",  /* bright yellow (same) */
-    [12] = "#53ADE1",  /* bright blue (same) */
-    [13] = "#AD60FF",  /* bright magenta (same) */
-    [14] = "#B0B1B4",  /* bright cyan (bg_1, mild gray) */
-    [15] = "#CBCCCE",  /* bright white (abg, a bit darker background shade) */
+    [8]  = "#CBCCCE",
+    [9]  = "#FA3867",
+    [10] = "#3FD43B",
+    [11] = "#FEBD16",
+    [12] = "#53ADE1",
+    [13] = "#AD60FF",
+    [14] = "#47E7CE",
+    [15] = "#26272B",
 };
 
 
